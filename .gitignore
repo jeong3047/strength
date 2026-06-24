@@ -1,0 +1,22 @@
+# === 로컬 전용 (커밋 금지) ===
+
+# 내부 인덱스 (로컬 전용)
+README.internal.md
+
+# 1차 자료 (로컬 전용). 단, 폴더 설명 README는 공개.
+meeting/*
+!meeting/README.md
+
+# 성과 보드 (로컬 전용). 단, 폴더 설명 README는 공개.
+frontend-scoreboard/*
+!frontend-scoreboard/README.md
+
+# 업무 이력 데이터 (로컬 전용). 단, 폴더 설명 README는 공개.
+workboard/*
+!workboard/README.md
+
+# 내부 전략 문서 (로컬 전용)
+docs/business-strategy.md
+
+# === OS / 기타 ===
+.DS_Store
